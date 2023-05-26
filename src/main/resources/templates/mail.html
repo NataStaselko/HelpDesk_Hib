@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=\"en\">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Order</title>
+    <style> .block{
+        margin: 0 auto;
+        width:  300px;
+        min-height: 200px;
+        text-align: center
+        }
+
+    </style>
+</head>
+<body>
+<div class="block">
+    <h3 th:text="${subject}"></h3>
+    <h4 th:text="${textPart1}"></h4>
+    <span th:text="${textPart2}"></span>
+    <span><a th:href ="${href}">ID</a></span>
+    <span th:text="${textPart3}"></span>
+
+
+</div>
+</body>
+</html>
