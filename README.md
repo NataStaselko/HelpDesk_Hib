@@ -25,7 +25,7 @@ HelpDesk
 #### _Project start:_
 To start the application download the file:
 
-https://github.com/NataStaselko/HelpDesk_Hibernate/releases
+https://disk.yandex.ru/d/EcKCnWPxL8y69g
 
 and run the following command from your terminal:
 ```sh
